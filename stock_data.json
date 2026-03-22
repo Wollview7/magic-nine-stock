@@ -8,10 +8,10 @@
       "upSequence": 0,
       "downSequence": 7,
       "prices": [
-        {"date": "2026-03-03", "open": 1520.00, "close": 1535.20, "high": 1540.00, "low": 1518.50},
-        {"date": "2026-03-04", "open": 1536.00, "close": 1528.50, "high": 1545.00, "low": 1520.00},
-        {"date": "2026-03-05", "open": 1530.00, "close": 1542.80, "high": 1550.00, "low": 1528.00},
-        {"date": "2026-03-06", "open": 1543.00, "close": 1538.20, "high": 1555.00, "low": 1535.00},
+        {"date": "2026-03-17", "open": 1544.00, "close": 1558.50, "high": 1575.00, "low": 1542.00},
+        {"date": "2026-03-18", "open": 1560.00, "close": 1551.80, "high": 1580.00, "low": 1548.00},
+        {"date": "2026-03-19", "open": 1552.00, "close": 1565.30, "high": 1585.00, "low": 1550.00},
+        {"date": "2026-03-20", "open": 1566.00, "close": 1558.90, "high": 1575.00, "low": 1555.00},
         {"date": "2026-03-21", "open": 1560.00, "close": 1567.80, "high": 1580.00, "low": 1558.00}
       ],
       "updateTime": "2026-03-22 15:00:00"
@@ -24,8 +24,10 @@
       "upSequence": 9,
       "downSequence": 0,
       "prices": [
-        {"date": "2026-03-03", "open": 195.00, "close": 192.50, "high": 198.00, "low": 190.00},
-        {"date": "2026-03-04", "open": 193.00, "close": 188.20, "high": 195.00, "low": 186.00},
+        {"date": "2026-03-17", "open": 163.00, "close": 175.80, "high": 178.00, "low": 162.00},
+        {"date": "2026-03-18", "open": 176.00, "close": 180.50, "high": 185.00, "low": 175.00},
+        {"date": "2026-03-19", "open": 181.00, "close": 183.20, "high": 188.00, "low": 179.00},
+        {"date": "2026-03-20", "open": 184.00, "close": 186.90, "high": 190.00, "low": 182.00},
         {"date": "2026-03-21", "open": 187.00, "close": 185.60, "high": 192.00, "low": 184.00}
       ],
       "updateTime": "2026-03-22 15:00:00"
@@ -38,13 +40,208 @@
       "upSequence": 0,
       "downSequence": 0,
       "prices": [
-        {"date": "2026-03-03", "open": 260.00, "close": 262.50, "high": 265.00, "low": 258.00},
+        {"date": "2026-03-17", "open": 269.00, "close": 273.20, "high": 280.00, "low": 267.00},
+        {"date": "2026-03-18", "open": 274.00, "close": 270.60, "high": 278.00, "low": 268.00},
+        {"date": "2026-03-19", "open": 271.00, "close": 275.40, "high": 282.00, "low": 269.00},
+        {"date": "2026-03-20", "open": 276.00, "close": 272.80, "high": 280.00, "low": 270.00},
         {"date": "2026-03-21", "open": 273.00, "close": 268.50, "high": 278.00, "low": 266.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "688981.SH",
+      "name": "中芯国际",
+      "currentPrice": 48.25,
+      "changePercent": -1.52,
+      "upSequence": 5,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 49.50, "close": 49.80, "high": 50.20, "low": 49.20},
+        {"date": "2026-03-18", "open": 49.70, "close": 49.10, "high": 50.00, "low": 48.80},
+        {"date": "2026-03-19", "open": 49.00, "close": 48.60, "high": 49.50, "low": 48.30},
+        {"date": "2026-03-20", "open": 48.50, "close": 48.20, "high": 49.00, "low": 47.80},
+        {"date": "2026-03-21", "open": 48.30, "close": 48.25, "high": 48.80, "low": 47.90}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "688041.SH",
+      "name": "海光信息",
+      "currentPrice": 72.80,
+      "changePercent": 2.15,
+      "upSequence": 0,
+      "downSequence": 3,
+      "prices": [
+        {"date": "2026-03-17", "open": 70.50, "close": 71.20, "high": 72.00, "low": 69.80},
+        {"date": "2026-03-18", "open": 71.50, "close": 71.80, "high": 73.00, "low": 71.00},
+        {"date": "2026-03-19", "open": 72.00, "close": 72.50, "high": 74.00, "low": 71.50},
+        {"date": "2026-03-20", "open": 73.00, "close": 72.20, "high": 74.50, "low": 71.80},
+        {"date": "2026-03-21", "open": 72.00, "close": 72.80, "high": 74.00, "low": 71.50}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "603501.SH",
+      "name": "韦尔股份",
+      "currentPrice": 95.40,
+      "changePercent": -0.78,
+      "upSequence": 6,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 97.50, "close": 97.20, "high": 98.50, "low": 96.50},
+        {"date": "2026-03-18", "open": 97.00, "close": 96.80, "high": 98.00, "low": 96.20},
+        {"date": "2026-03-19", "open": 96.50, "close": 96.20, "high": 97.50, "low": 95.80},
+        {"date": "2026-03-20", "open": 96.00, "close": 95.80, "high": 97.00, "low": 95.20},
+        {"date": "2026-03-21", "open": 95.50, "close": 95.40, "high": 96.80, "low": 95.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "002371.SZ",
+      "name": "北方华创",
+      "currentPrice": 318.50,
+      "changePercent": 1.92,
+      "upSequence": 0,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 310.00, "close": 315.20, "high": 318.00, "low": 308.00},
+        {"date": "2026-03-18", "open": 316.00, "close": 313.50, "high": 320.00, "low": 312.00},
+        {"date": "2026-03-19", "open": 314.00, "close": 316.80, "high": 322.00, "low": 313.00},
+        {"date": "2026-03-20", "open": 318.00, "close": 315.40, "high": 324.00, "low": 314.00},
+        {"date": "2026-03-21", "open": 316.00, "close": 318.50, "high": 322.00, "low": 314.50}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "688012.SH",
+      "name": "中微公司",
+      "currentPrice": 145.20,
+      "changePercent": -1.25,
+      "upSequence": 4,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 148.00, "close": 147.50, "high": 149.50, "low": 146.00},
+        {"date": "2026-03-18", "open": 147.00, "close": 146.80, "high": 149.00, "low": 145.50},
+        {"date": "2026-03-19", "open": 146.50, "close": 146.20, "high": 148.00, "low": 145.00},
+        {"date": "2026-03-20", "open": 146.00, "close": 145.50, "high": 147.50, "low": 144.50},
+        {"date": "2026-03-21", "open": 145.00, "close": 145.20, "high": 147.00, "low": 144.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "601012.SH",
+      "name": "隆基绿能",
+      "currentPrice": 18.65,
+      "changePercent": -2.10,
+      "upSequence": 8,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 19.50, "close": 19.20, "high": 19.60, "low": 19.00},
+        {"date": "2026-03-18", "open": 19.10, "close": 19.00, "high": 19.40, "low": 18.80},
+        {"date": "2026-03-19", "open": 19.00, "close": 18.80, "high": 19.20, "low": 18.60},
+        {"date": "2026-03-20", "open": 18.70, "close": 18.60, "high": 19.00, "low": 18.40},
+        {"date": "2026-03-21", "open": 18.60, "close": 18.65, "high": 18.90, "low": 18.30}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "688599.SH",
+      "name": "天合光能",
+      "currentPrice": 22.80,
+      "changePercent": -1.72,
+      "upSequence": 7,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 23.50, "close": 23.30, "high": 23.70, "low": 23.00},
+        {"date": "2026-03-18", "open": 23.20, "close": 23.10, "high": 23.50, "low": 22.80},
+        {"date": "2026-03-19", "open": 23.00, "close": 22.90, "high": 23.30, "low": 22.60},
+        {"date": "2026-03-20", "open": 22.80, "close": 22.70, "high": 23.10, "low": 22.40},
+        {"date": "2026-03-21", "open": 22.70, "close": 22.80, "high": 23.00, "low": 22.30}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "002230.SZ",
+      "name": "科大讯飞",
+      "currentPrice": 48.90,
+      "changePercent": 0.62,
+      "upSequence": 0,
+      "downSequence": 4,
+      "prices": [
+        {"date": "2026-03-17", "open": 47.80, "close": 48.20, "high": 48.80, "low": 47.50},
+        {"date": "2026-03-18", "open": 48.30, "close": 48.50, "high": 49.20, "low": 48.00},
+        {"date": "2026-03-19", "open": 48.60, "close": 48.70, "high": 49.50, "low": 48.20},
+        {"date": "2026-03-20", "open": 49.00, "close": 48.60, "high": 49.80, "low": 48.20},
+        {"date": "2026-03-21", "open": 48.50, "close": 48.90, "high": 49.50, "low": 48.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "000977.SZ",
+      "name": "浪潮信息",
+      "currentPrice": 28.45,
+      "changePercent": -0.87,
+      "upSequence": 3,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 29.00, "close": 28.80, "high": 29.30, "low": 28.50},
+        {"date": "2026-03-18", "open": 28.80, "close": 28.70, "high": 29.10, "low": 28.40},
+        {"date": "2026-03-19", "open": 28.60, "close": 28.60, "high": 29.00, "low": 28.20},
+        {"date": "2026-03-20", "open": 28.50, "close": 28.40, "high": 28.80, "low": 28.00},
+        {"date": "2026-03-21", "open": 28.40, "close": 28.45, "high": 28.70, "low": 28.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "603019.SH",
+      "name": "中科曙光",
+      "currentPrice": 42.15,
+      "changePercent": 1.25,
+      "upSequence": 0,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 41.00, "close": 41.80, "high": 42.50, "low": 40.80},
+        {"date": "2026-03-18", "open": 42.00, "close": 41.60, "high": 42.80, "low": 41.20},
+        {"date": "2026-03-19", "open": 41.70, "close": 42.10, "high": 43.00, "low": 41.40},
+        {"date": "2026-03-20", "open": 42.20, "close": 41.90, "high": 43.20, "low": 41.60},
+        {"date": "2026-03-21", "open": 42.00, "close": 42.15, "high": 43.00, "low": 41.50}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "601318.SH",
+      "name": "中国平安",
+      "currentPrice": 42.80,
+      "changePercent": -0.35,
+      "upSequence": 2,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 43.20, "close": 43.10, "high": 43.50, "low": 42.80},
+        {"date": "2026-03-18", "open": 43.00, "close": 42.90, "high": 43.40, "low": 42.60},
+        {"date": "2026-03-19", "open": 42.80, "close": 42.85, "high": 43.20, "low": 42.50},
+        {"date": "2026-03-20", "open": 42.90, "close": 42.70, "high": 43.10, "low": 42.40},
+        {"date": "2026-03-21", "open": 42.70, "close": 42.80, "high": 43.00, "low": 42.30}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "600036.SH",
+      "name": "招商银行",
+      "currentPrice": 35.25,
+      "changePercent": 0.43,
+      "upSequence": 0,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-17", "open": 34.80, "close": 35.10, "high": 35.50, "low": 34.60},
+        {"date": "2026-03-18", "open": 35.20, "close": 34.95, "high": 35.60, "low": 34.70},
+        {"date": "2026-03-19", "open": 35.00, "close": 35.20, "high": 35.70, "low": 34.80},
+        {"date": "2026-03-20", "open": 35.30, "close": 35.10, "high": 35.80, "low": 34.90},
+        {"date": "2026-03-21", "open": 35.10, "close": 35.25, "high": 35.60, "low": 34.80}
       ],
       "updateTime": "2026-03-22 15:00:00"
     }
   ],
   "updateTime": "2026-03-22 15:00:00",
-  "count": 3,
-  "note": "演示数据，真实数据需等待GitHub Actions成功运行"
+  "count": 15,
+  "note": "演示数据，包含15只A股核心股票"
 }
