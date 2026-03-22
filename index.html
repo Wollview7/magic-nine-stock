@@ -178,6 +178,18 @@
             border-radius: 4px;
         }
         
+        .market-tag {
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-left: 6px;
+            font-weight: 600;
+        }
+        
+        .market-a { background: #e3f2fd; color: #1976d2; }
+        .market-hk { background: #fce4ec; color: #c2185b; }
+        .market-us { background: #f3e5f5; color: #7b1fa2; }
+        
         .price-section {
             text-align: right;
         }
@@ -555,6 +567,12 @@
             const priceClass = isUp ? 'price-up' : 'price-down';
             const changeSign = isUp ? '+' : '';
             
+            // 市场标签
+            const market = stock.market || 'A';
+            const marketClass = `market-${market.toLowerCase()}`;
+            const marketText = market === 'A' ? 'A股' : market === 'HK' ? '港股' : '美股';
+            const currency = market === 'US' ? '$' : '¥';
+            
             // 判断信号类型
             let signalClass = '';
             let signalText = '';
@@ -606,11 +624,11 @@
                 <div class="stock-card ${signalClass}">
                     <div class="stock-header">
                         <div class="stock-info">
-                            <h3>${stock.name}</h3>
+                            <h3>${stock.name}<span class="market-tag ${marketClass}">${marketText}</span></h3>
                             <span class="stock-code">${stock.code}</span>
                         </div>
                         <div class="price-section">
-                            <div class="current-price ${priceClass}">¥${stock.currentPrice.toFixed(2)}</div>
+                            <div class="current-price ${priceClass}">${currency}${stock.currentPrice.toFixed(2)}</div>
                             <div class="change-pct ${priceClass}">${changeSign}${stock.changePercent.toFixed(2)}%</div>
                         </div>
                     </div>
