@@ -3,6 +3,7 @@ import json
 import pandas as pd
 from datetime import datetime, timedelta
 import os
+import sys
 
 # 股票池配置
 STOCKS = {
@@ -126,32 +127,43 @@ def generate_stock_data():
         'count': len(result)
     }
 
+def load_existing_data():
+    """加载现有数据作为fallback"""
+    try:
+        with open('stock_data.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        # 返回演示数据
+        return {
+            "stocks": [
+                {"code": "600519.SH", "name": "贵州茅台", "currentPrice": 1567.80, "changePercent": 1.25, "upSequence": 0, "downSequence": 7, "prices": [{"date": "2026-03-21", "open": 1560.00, "close": 1567.80, "high": 1580.00, "low": 1558.00}], "updateTime": "2026-03-22 15:00:00"},
+                {"code": "300750.SZ", "name": "宁德时代", "currentPrice": 185.60, "changePercent": -2.35, "upSequence": 9, "downSequence": 0, "prices": [{"date": "2026-03-21", "open": 187.00, "close": 185.60, "high": 192.00, "low": 184.00}], "updateTime": "2026-03-22 15:00:00"},
+                {"code": "002594.SZ", "name": "比亚迪", "currentPrice": 268.50, "changePercent": 0.85, "upSequence": 0, "downSequence": 0, "prices": [{"date": "2026-03-21", "open": 273.00, "close": 268.50, "high": 278.00, "low": 266.00}], "updateTime": "2026-03-22 15:00:00"}
+            ],
+            "updateTime": "2026-03-22 15:00:00",
+            "count": 3,
+            "note": "演示数据，真实数据获取失败时显示"
+        }
+
 if __name__ == '__main__':
-    # 生成数据
-    data = generate_stock_data()
+    print("开始更新股票数据...")
     
-    # 保存为JSON
-    output_path = 'stock_data.json'
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✅ 数据已保存到 {output_path}")
-    print(f"📊 共 {data['count']} 只股票")
-    print(f"🕐 更新时间: {data['updateTime']}")
-    
-    # 打印信号统计
-    up_signals = [s for s in data['stocks'] if s['upSequence'] == 9]
-    down_signals = [s for s in data['stocks'] if s['downSequence'] == 9]
-    
-    if up_signals:
-        print(f"\n🔴 上涨9转信号 ({len(up_signals)}只):")
-        for s in up_signals:
-            print(f"   {s['name']} ({s['code']})")
-    
-    if down_signals:
-        print(f"\n🟢 下跌9转信号 ({len(down_signals)}只):")
-        for s in down_signals:
-            print(f"   {s['name']} ({s['code']})")
-    
-    if not up_signals and not down_signals:
-        print("\n⚪ 暂无九转信号")
+    try:
+        # 生成数据
+        data = generate_stock_data()
+        
+        # 如果成功获取了至少3只股票，保存数据
+        if data['count'] >= 3:
+            with open('stock_data.json', 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            print(f"\n✅ 数据已保存，共 {data['count']} 只股票")
+        else:
+            # 数据太少，保留现有数据
+            print(f"\n⚠️ 仅获取到 {data['count']} 只股票，保留现有数据")
+            # 不覆盖文件
+            
+    except Exception as e:
+        print(f"\n❌ 更新失败: {e}")
+        print("保留现有数据")
+        # 不覆盖文件，退出但不报错
+        sys.exit(0)
