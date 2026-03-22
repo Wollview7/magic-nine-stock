@@ -1,12 +1,50 @@
 {
   "stocks": [
     {
-      "code": "688981.SH",
-      "name": "中芯国际",
-      "currentPrice": 102.18,
-      "changePercent": -3.57,
-      "upSequence": 2,
+      "code": "600519.SH",
+      "name": "贵州茅台",
+      "currentPrice": 1567.80,
+      "changePercent": 1.25,
+      "upSequence": 0,
+      "downSequence": 7,
+      "prices": [
+        {"date": "2026-03-03", "open": 1520.00, "close": 1535.20, "high": 1540.00, "low": 1518.50},
+        {"date": "2026-03-04", "open": 1536.00, "close": 1528.50, "high": 1545.00, "low": 1520.00},
+        {"date": "2026-03-05", "open": 1530.00, "close": 1542.80, "high": 1550.00, "low": 1528.00},
+        {"date": "2026-03-06", "open": 1543.00, "close": 1538.20, "high": 1555.00, "low": 1535.00},
+        {"date": "2026-03-21", "open": 1560.00, "close": 1567.80, "high": 1580.00, "low": 1558.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "300750.SZ",
+      "name": "宁德时代",
+      "currentPrice": 185.60,
+      "changePercent": -2.35,
+      "upSequence": 9,
       "downSequence": 0,
       "prices": [
-        {
-          "date": 
+        {"date": "2026-03-03", "open": 195.00, "close": 192.50, "high": 198.00, "low": 190.00},
+        {"date": "2026-03-04", "open": 193.00, "close": 188.20, "high": 195.00, "low": 186.00},
+        {"date": "2026-03-21", "open": 187.00, "close": 185.60, "high": 192.00, "low": 184.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    },
+    {
+      "code": "002594.SZ",
+      "name": "比亚迪",
+      "currentPrice": 268.50,
+      "changePercent": 0.85,
+      "upSequence": 0,
+      "downSequence": 0,
+      "prices": [
+        {"date": "2026-03-03", "open": 260.00, "close": 262.50, "high": 265.00, "low": 258.00},
+        {"date": "2026-03-21", "open": 273.00, "close": 268.50, "high": 278.00, "low": 266.00}
+      ],
+      "updateTime": "2026-03-22 15:00:00"
+    }
+  ],
+  "updateTime": "2026-03-22 15:00:00",
+  "count": 3,
+  "note": "演示数据，真实数据需等待GitHub Actions成功运行"
+}
