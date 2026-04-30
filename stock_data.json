@@ -4,10 +4,10 @@
       "code": "600519.SH",
       "name": "贵州茅台",
       "market": "A",
-      "currentPrice": 1420.0,
-      "changePercent": 0.28,
-      "upSequence": 0,
-      "downSequence": 2,
+      "currentPrice": 1384.79,
+      "changePercent": -1.17,
+      "upSequence": 4,
+      "downSequence": 0,
       "prices": [
         {
           "date": 
