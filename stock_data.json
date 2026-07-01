@@ -1,13 +1,13 @@
 {
   "stocks": [
     {
-      "code": "600519.SH",
-      "name": "贵州茅台",
+      "code": "688981.SH",
+      "name": "中芯国际",
       "market": "A",
-      "currentPrice": 1194.96,
-      "changePercent": 2.25,
-      "upSequence": 0,
-      "downSequence": 1,
+      "currentPrice": 154.48,
+      "changePercent": -2.73,
+      "upSequence": 1,
+      "downSequence": 0,
       "prices": [
         {
           "date": 
